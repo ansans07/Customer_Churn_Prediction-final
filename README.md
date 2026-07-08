@@ -1,4 +1,4 @@
-# Customer Churn Prediction - End-to-End ML Project
+# Customer Churn Prediction 
 
 This project predicts whether a telecom customer is likely to churn. It is designed as an interview-ready machine learning project using models covered in or closely related to the Machine Learning Specialization:
 
@@ -145,14 +145,5 @@ The project reports:
 - Probability prediction
 - Business recommendations
 
-## Interview Explanation
 
-A good way to explain this project:
 
-> I built an end-to-end customer churn prediction system using the Telco Customer Churn dataset. I cleaned the data, engineered features, handled class imbalance using SMOTE, and built a preprocessing pipeline with one-hot encoding and scaling. I trained Logistic Regression, Decision Tree, Random Forest, and XGBoost models. I tuned each model using cross-validation and selected the best model based on F1 score because churn prediction is an imbalanced classification problem. Finally, I deployed the model using a Streamlit app that predicts churn probability and gives business recommendations.
-
-## Notes
-
-- SMOTE is applied only inside the training pipeline to avoid data leakage.
-- The test set is kept untouched until final model evaluation.
-- The final saved model is selected using F1 score.
