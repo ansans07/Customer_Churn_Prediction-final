@@ -1,0 +1,25 @@
+{
+    "Logistic Regression": {
+        "model__C": 1,
+        "model__solver": "liblinear",
+        "model__class_weight": "balanced"
+    },
+    "Decision Tree": {
+        "model__criterion": "gini",
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 2
+    },
+    "Random Forest": {
+        "model__n_estimators": 50,
+        "model__max_depth": 8,
+        "model__min_samples_leaf": 4,
+        "model__max_features": "sqrt"
+    },
+    "XGBoost": {
+        "model__n_estimators": 50,
+        "model__max_depth": 3,
+        "model__learning_rate": 0.1,
+        "model__subsample": 0.8,
+        "model__colsample_bytree": 0.8
+    }
+}
